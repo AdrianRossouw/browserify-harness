@@ -1,0 +1,18 @@
+{
+  "name": "browserify-harness",
+  "version": "0.0.1",
+  "description": "clean room testing environment for various packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vertice/browserify-harness.git"
+  },
+  "author": "Adrian Rossouw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vertice/browserify-harness/issues"
+  }
+}
