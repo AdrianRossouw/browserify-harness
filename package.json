@@ -14,5 +14,12 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vertice/browserify-harness/issues"
+  },
+  "dependencies": {
+    "should": "~2.0.2",
+    "grunt-browserify": "~1.2.9",
+    "mocha": "~1.13.0",
+    "grunt": "~0.4.1",
+    "browserify": "~2.34.3"
   }
 }
