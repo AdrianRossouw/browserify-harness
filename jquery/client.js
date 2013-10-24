@@ -1,5 +1,5 @@
 var $ = require('jquery');
 
-$('body').html('client working');
+$('#content').html('client working');
 
 require('./shared.js');

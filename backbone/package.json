@@ -7,5 +7,12 @@
     "test": "mocha -R spec"
   },
   "author": "Adrian Rossouw",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery-browserify": "~1.8.1",
+    "backbone": "~1.1.0"
+  },
+  "browser": {
+      "jquery": "jquery-browserify"
+  }
 }
