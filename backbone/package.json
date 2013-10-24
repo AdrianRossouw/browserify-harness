@@ -1,0 +1,11 @@
+{
+  "name": "backbone-harness",
+  "version": "0.0.1",
+  "description": "clean room for how to browserify backbone",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": "Adrian Rossouw",
+  "license": "MIT"
+}
