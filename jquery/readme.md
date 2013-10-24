@@ -16,8 +16,8 @@ browserify try to package jsdom).
 
 To 'combat' this, they have another package called [jQuery](https://npmjs.org/package/jQuery)
 packaged for the browser. The real fun here starts because OSX is case insensitive...
-Version wise .. the numbering of the 'jquery' package is also a bit more complex.
 
+Version wise .. the numbering of the 'jquery' package is also a bit more complex.
 It is more of a wrapper that goes and dynamically fetches a specific version
 of jquery for you when you run it the first time.
 
