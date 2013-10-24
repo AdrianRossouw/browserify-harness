@@ -2,7 +2,7 @@ var App = require('./shared.js');
 var Backbone = require('backbone');
 var Marionette = require('backbone');
 
-Backbone.$ = Marionette.$ = require('jquery');
+Backbone.$ = Marionette.$ = Backbone.Marionette.$ = require('jquery');
 
 App.module('Views', function(views) {
     views.MainView = Backbone.Marionette.ItemView.extend({

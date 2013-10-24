@@ -4,7 +4,9 @@ var Backbone   = require('backbone');
 var Marionette = require('backbone.marionette');
 var _          = require('underscore');
 
-Marionette.$ = require('jquery');
+// Sidestep jquery being required on the server
+Marionette.$ = function() {};
+_.extend(Marionette.$, require('underscore.deferred'));
 
 var App = new Marionette.Application();
 
