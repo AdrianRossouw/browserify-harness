@@ -1,0 +1,20 @@
+{
+  "name": "jquery-browser",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Vertice/browserify-harness",
+  "authors": [
+    "Adrian Rossouw <adrian@daemon.co.za>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}

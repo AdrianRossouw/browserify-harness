@@ -1,0 +1,18 @@
+{
+  "name": "jquery-harness",
+  "version": "0.0.1",
+  "description": "browserify harness for jquery",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js"
+  },
+  "author": "Adrian Rossouw",
+  "license": "BSD",
+  "dependencies": {
+    "jquery-browser": "~1.10.2-1"
+  },
+  "browser": {
+      "jquery": "./bower_components/jquery/jquery.js"
+  }
+}
