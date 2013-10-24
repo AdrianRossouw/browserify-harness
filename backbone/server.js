@@ -1,10 +1,13 @@
-var $ = require('jquery');
+var Backbone = require('backbone');
 
 var shared = require('./shared.js');
 
-$.when(true).then(function() { console.log('server is working'); });
+var account = new shared.models.Account({id: 'admin'});
+
+account.set('attr', 'test');
+
+console.log('test account model on server', account.toJSON());
 
 module.exports = {
-    shared: shared,
-    $: $
+    account: account
 };

@@ -1,6 +1,9 @@
 var Backbone = require('backbone');
 var $ = require('jquery');
 
+// needed for view rendering
+Backbone.$ = $;
+
 var shared = require('./shared.js');
 
 var View = Backbone.View.extend({

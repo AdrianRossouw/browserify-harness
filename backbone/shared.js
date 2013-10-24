@@ -1,7 +1,6 @@
 // shared setup code
 
 var Backbone = require('backbone');
-Backbone.$ = require('jquery');
 
 var models = {};
 
