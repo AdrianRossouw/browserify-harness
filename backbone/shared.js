@@ -4,9 +4,7 @@ var Backbone = require('backbone');
 
 var models = {};
 
-models.Account = Backbone.Model.extend({
-
-});
+models.Account = Backbone.Model.extend({});
 
 models.Accounts = Backbone.Collection.extend({
     model: models.Account
