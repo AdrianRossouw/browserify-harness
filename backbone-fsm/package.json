@@ -1,0 +1,20 @@
+{
+  "name": "backbone-fsm-harness",
+  "version": "0.0.1",
+  "description": "clean room test harness for backbone-fsm",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "start": "node server.js"
+  },
+  "author": "Adrian Rossouw",
+  "license": "MIT",
+  "dependencies": {
+    "backbone-fsm": "0.0.1",
+    "jquery-browserify": "~1.8.1",
+    "backbone": "~1.1.0"
+  },
+  "browser": {
+      "jquery": "jquery-browserify"
+  }
+}
