@@ -17,11 +17,33 @@ browserify try to package jsdom).
 To 'combat' this, they have another package called [jQuery](https://npmjs.org/package/jQuery)
 packaged for the browser. The real fun here starts because OSX is case insensitive...
 
+Now once you assume you are going to be running jquery from different sources in the
+two environments, things become a bit easier.
+
+what I ended up doing.
+----------------------
+
+1. npm install --save jquery jquery-browserify
+1. edit package.json and add
+
+    {
+        "browser": {
+            "jquery": "jquery-browserify"
+        }
+    }
+
+when versions matter
+--------------------
+
 Version wise .. the numbering of the 'jquery' package is also a bit more complex.
 It is more of a wrapper that goes and dynamically fetches a specific version
 of jquery for you when you run it the first time.
 
-Now once you assume you are going to be running jquery from different sources in the
-two environments, things become a bit easier.
+final tips
+----------
 
+Avoid jquery on the server wherever possible. instead use smaller simpler libraries
+across your code.
+
+I use underscore.deferred for promises, and cheerio whenever i need to scrape things.
 

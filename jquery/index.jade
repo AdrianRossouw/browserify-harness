@@ -1,0 +1,16 @@
+!!!5
+html
+  head
+    title jquery harness
+  body
+    #content initial value
+
+  if version === 'merged'
+    script(src='all.js')
+  else if version === 'split'
+    script(src='vendor.js')
+    script(src='shared.js')
+    script(src='client.js')
+  else
+    script(src='bundle.js')
+  

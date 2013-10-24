@@ -10,10 +10,10 @@
   "author": "Adrian Rossouw",
   "license": "BSD",
   "browser": {
-    "jquery": "jquery-browser"
+    "jquery": "jquery-browserify"
   },
   "dependencies": {
     "jquery": "~1.8.3",
-    "jquery-browser": "~1.10.2-1"
+    "jquery-browserify": "~1.8.1"
   }
 }
